@@ -3,61 +3,84 @@
 <head>
   <title>Jake The Dog Tribute Page</title>
   <style>
+        main {
+            margin: 0 1% 0 1%;
+            background-color: rgba(49, 123, 148, 0.1);
+            padding: 1% 1% 1% 1%;
+            border-radius: 5px;
+        }
         header {
             display: flex;
             align-items: center;
+            justify-content: center;
         }
         h1 {
-            margin: 0 auto 0 auto;
-        }
-        #img-figure {
-            display: flex;
-            grid-template-rows: 1fr;
-            grid-template-columns: 1fr;
-            flex-direction: column;
-            align-items: center;
-        }
-        #image {
-            max-width: 90%;
-            max-height: 60vh;
+            font-family: Arial, Helvetica, sans-serif;
             margin: 0;
         }
-        figcaption {
+        figure {
+            display: grid;
+            grid-template-rows: auto 1em;
+            grid-row-gap: .5em;
+            align-items: center;
+            border: 1px solid rgba(0,0,0,0.2);
+            border-radius: 5px;
+            background-color: white;
+            padding: 5px;
+        }
+        #img-figure {
+            max-width: 1900px;
+            margin: 15px auto 15px auto;
+        }
+        figure figcaption {
             text-align: center;
         }
-
+        figure img {
+            width: 100%;
+            max-width: 1960px;
+            margin: 0;
+            border-radius: 5px;
+        }
+        section {
+            margin: 0 1% 0 1%;
+        }
         #tribute-info p {
             text-align: justify;
+        }
+        footer p {
+            text-align: center;
         }
   </style>
 </head>
 <body id="main">
   <script src="testable-projects-fcc-v1-bundle.js"></script> <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
-  <header>
-    <h1 id="title">Jake the Dog</h1>
-  </header>
-  <div id="img-div">
-    <figure id="img-figure">
-      <img alt="Jake the Dog"
-              id="image"
-              src="https://i.stack.imgur.com/xHWG8.jpg">
-      <figcaption id="img-caption">
-        <strong>Jake the Dog</strong> is the deuteragonist of <em>Adventure Time</em>.
-      </figcaption>
-    </figure>
-  </div>
-  <section id="tribute-info">
-    <p>Jake (full title: Jake the Dog), the deuteragonist of Adventure Time, is a dog/shape-shifter hybrid, referred to by others as a "magical dog", and Finn's constant companion, best friend, and brother. Jake has a unique set of abilities called
-    Stretchy Powers that allow him to manipulate the shape and size of his body, coming in handy on innumerable occasions throughout his and Finn's adventures. Jake was 28 years old at his debut in "magical dog years," and ages throughout the
-    series, though he rarely acts mature. It is inferred that magical dogs have a lifespan similar to Humans, as demonstrated by an aged Jake in "Dungeon Train". Then again, how exactly magical dog years correlate to human years remains to be seen,
-    although both Finn and Jake were shown to be babies around the same time, showing that they age slightly faster, however, his age as of "Joshua and Margaret Investigations" suggests that it slows down to the rate of human's aging at some point.
-    Jake is currently in a relationship with Lady Rainicorn, and, by "Jake the Dad," they are the parents of five Rainicorn-dog hybrids.</p>
-  </section>
-  <footer>
-    <p>For more information, please take a look at <a href="http://adventuretime.wikia.com/wiki/Jake"
-       target="_blank">Jake's entry</a> on the <a href="http://adventuretime.wikia.com/"
-       id="tribute-link"
-       target="_blank">Adventure Time Wiki</a>.</p>
-  </footer>
+  <main>
+    <header>
+      <h1 id="title">Jake the Dog</h1>
+    </header>
+    <div id="img-div">
+      <figure id="img-figure">
+        <img alt="Jake the Dog"
+                id="image"
+                src="https://i.stack.imgur.com/xHWG8.jpg">
+        <figcaption id="img-caption">
+          <strong>Jake the Dog</strong> is the deuteragonist of <em>Adventure Time</em>.
+        </figcaption>
+      </figure>
+    </div>
+    <section id="tribute-info">
+      <p>Jake (full title: Jake the Dog), the deuteragonist of Adventure Time, is a dog/shape-shifter hybrid, referred to by others as a "magical dog", and Finn's constant companion, best friend, and brother. Jake has a unique set of abilities
+      called Stretchy Powers that allow him to manipulate the shape and size of his body, coming in handy on innumerable occasions throughout his and Finn's adventures. Jake was 28 years old at his debut in "magical dog years," and ages throughout
+      the series, though he rarely acts mature. It is inferred that magical dogs have a lifespan similar to Humans, as demonstrated by an aged Jake in "Dungeon Train". Then again, how exactly magical dog years correlate to human years remains to be
+      seen, although both Finn and Jake were shown to be babies around the same time, showing that they age slightly faster, however, his age as of "Joshua and Margaret Investigations" suggests that it slows down to the rate of human's aging at some
+      point. Jake is currently in a relationship with Lady Rainicorn, and, by "Jake the Dad," they are the parents of five Rainicorn-dog hybrids.</p>
+    </section>
+    <footer>
+      <p>For more information, please take a look at <a href="http://adventuretime.wikia.com/wiki/Jake"
+         target="_blank">Jake's entry</a> on the <a href="http://adventuretime.wikia.com/"
+         id="tribute-link"
+         target="_blank">Adventure Time Wiki</a>.</p>
+    </footer>
+  </main>
 </body>
 </html>
