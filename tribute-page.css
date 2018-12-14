@@ -1,0 +1,47 @@
+main {
+    margin: 0 1% 0 1%;
+    background-color: rgba(49, 123, 148, 0.1);
+    padding: 1% 1% 1% 1%;
+    border-radius: 5px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+figure {
+    display: grid;
+    grid-template-rows: auto 1em;
+    grid-row-gap: .5em;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+}
+#img-figure {
+    max-width: 1900px;
+    margin: 15px auto 15px auto;
+}
+figure figcaption {
+    text-align: center;
+}
+figure img {
+    width: 100%;
+    max-width: 1960px;
+    margin: 0;
+    border-radius: 5px;
+}
+section {
+    margin: 0 1% 0 1%;
+}
+#tribute-info p {
+    text-align: justify;
+}
+footer p {
+    text-align: center;
+}
