@@ -15,7 +15,7 @@ h1 {
 }
 figure {
     display: grid;
-    grid-template-rows: auto 1em;
+    grid-template-rows: auto auto;
     grid-row-gap: .5em;
     align-items: center;
     border: 1px solid rgba(0,0,0,0.2);
@@ -30,9 +30,9 @@ figure {
 figure figcaption {
     text-align: center;
 }
-figure img {
+#img-figure img {
     width: 100%;
-    max-width: 1960px;
+    max-width: 1920px;
     margin: 0;
     border-radius: 5px;
 }
