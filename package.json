@@ -1,7 +1,7 @@
 {
-  "name": "build-a-tribute-page",
+  "name": "fcc-tribute-page",
   "version": "1.0.0",
-  "repository": "https://github.com/asteffey/freecodecamp/tree/master/responsive-web-design/build-a-tribute-page",
+  "repository": "https://github.com/asteffey/fcc-tribute-page",
   "author": "Andrew Steffey",
   "license": "MIT",
   "private": true,
